@@ -1,0 +1,51 @@
+/* Tu CSS va aqui */
+img{
+	width: 100px;	
+}
+
+li a{
+	color:#A1A1A1;
+}
+
+/*SECTION BEAUTIFUL*/
+
+.section-beauti{
+	background-color: #8D8D8D;
+	color: #fff;
+	padding: 5% 0 8%;
+}
+
+
+
+.caja{
+	width: 50%;
+	height: 220px;
+	background: #A0A0A0;
+	margin-left: 60px;
+	padding-top: 15px;
+	padding-left: 28px;
+	border-radius: 15px;
+}
+
+label{
+	
+	font-size: 20px;
+	margin-bottom: 1em;
+	padding-left: 2em;
+}
+
+.gris{
+	color:;
+	margin-top: 10px;
+}
+
+/*MEDIAS*/
+@media only screen and (max-width: 768px){
+	.caja {
+	    width: 100% !important;
+	    margin-left: 0 !important;
+	}
+	.form-group {
+	    width: 100%;
+	}
+}
